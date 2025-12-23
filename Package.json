@@ -1,5 +1,5 @@
 {
-  "name": "solana-incinerator",
+  "name": "burnkem",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -9,16 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@solana/web3.js": "^1.95.4",
-    "@solana/spl-token": "^0.4.8",
-    "@solana/wallet-adapter-react": "^0.15.39",
-    "@solana/wallet-adapter-react-ui": "^0.9.39",
-    "@solana/wallet-adapter-wallets": "^0.19.25",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@solana/web3.js": "^1.95.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.10"
+    "vite": "^5.0.0"
   }
 }
